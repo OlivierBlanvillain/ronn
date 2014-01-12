@@ -12,8 +12,8 @@ body                                { margin:0 }
 #man h3                             { margin:0 0 0 4ex }
 
 #man dt                             { margin:0; clear:left }
-#man dt.flush                       { float:left; width:8ex }
-#man dd                             { margin:0 0 0 9ex }
+#man dt.flush                       { float:left; width:13ex }
+#man dd                             { margin:0 0 0 13ex }
 #man h1, #man h2, #man h3, #man h4  { clear:left }
 
 #man pre                            { margin-bottom:20px }

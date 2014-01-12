@@ -385,7 +385,7 @@ module Ronn
           term, definition = container.inner_html.split(":\n", 2)
 
           dt = item.before("<dt>#{term}</dt>").first
-          dt.attributes['class'] = 'flush' if dt.inner_text.length <= 7
+          dt.attributes['class'] = 'flush' if dt.inner_text.length <= 12
 
           item.name = 'dd'
           container.swap(wrap.sub(/></, ">#{definition}<"))
